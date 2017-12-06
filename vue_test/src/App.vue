@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+  <Index />
     <img src="./assets/logo.png">
     <HelloWorld/>
   </div>
@@ -7,11 +8,12 @@
 
 <script>
 import HelloWorld from './components/HelloWorld'
+import Index from './components/Index'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HelloWorld,Index
   }
 }
 </script>
