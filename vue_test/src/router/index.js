@@ -12,19 +12,19 @@ export default new Router({
   mode: 'history', //删除地址栏的#号
   routes: [{
     path: '/',
-    name: 'Index',
+    // name: 'Index',
     component: Index
   }, {
     path: '/home',
-    name: 'Home',
+    // name: 'Home',
     component: Home
   }, {
     path: '/about',
-    name: 'About',
+    // name: 'About',
     component: About
   }, {
     path: '/contact',
-    name: 'Contact',
+    // name: 'Contact',
     component: Contact
   }]
 })
